@@ -1,0 +1,65 @@
+.student-container { padding: 20px; }
+
+.table-wrapper {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.infix-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Column size fix karva mate */
+}
+
+.infix-table th, .infix-table td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.infix-table th { background: #f8f9fd; color: #666; font-size: 13px; }
+
+/* Edit Inputs - Width nana kari didha che */
+.edit-input {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #3a2d82;
+  border-radius: 4px;
+}
+
+.edit-input-sm {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #3a2d82;
+  border-radius: 4px;
+}
+
+/* Button Group Alignment */
+.edit-btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.save-btn-small, .cancel-btn-small {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-btn-small:hover { background: #e1f7ec; }
+.cancel-btn-small:hover { background: #ffeaea; }
+
+.editing-row { background-color: #f0f4ff !important; }
+
+/* Icons */
+.edit-icon, .delete-icon {
+  background: none; border: none; cursor: pointer; font-size: 18px; margin-right: 10px;
+}
